@@ -1,0 +1,411 @@
+description: Butler Data Repository Export
+version: 1.0.1
+data:
+- type: dimension
+  element: skymap
+  records:
+  - name: DC2
+    hash: !!binary |
+      Hl+oX+JCYGQmUo9fe42/Acuq/54=
+    tract_max: 18938
+    patch_nx_max: 7
+    patch_ny_max: 7
+- type: dimension
+  element: tract
+  records:
+  - skymap: DC2
+    id: 3828
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7083d9165951bddc3f808b106f480be53fe70a5d7f265be3bf59a5da6dd149db3f51765aff8785e53f61e2a283265be3bf840f93d210dbdb3f01b9b01fe1f3e53fc376013146a8e2bf74315dbd904edd3fb26e698fa179e53fe11be32c46a8e2bf
+- type: dimension
+  element: patch
+  records:
+  - skymap: DC2
+    tract: 3828
+    id: 0
+    cell_x: 0
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708bcf365b8a80db3ff2c0392ce273e53f647a62ed605be3bf59a5da6dd149db3f51765aff8785e53f61e2a283265be3bf1e0af0be685fdb3f06cc459ef195e53f92e503512f41e3bf2c0897932296db3f4cc62ec84b84e53fbd31c66d6941e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 1
+    cell_x: 1
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d8d7fd31d3b5db3fb76887cc9462e53f5a4fe69a865be3bf402cda9fdf7ddb3feeb05814bf74e53fd20aee8a5e5be3bfee897acd7793db3f3fcedab02885e53ff058760e6741e3bf2cfedc356ccbdb3fa177b454fe72e53f2019a1e98e41e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 2
+    cell_x: 2
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700404ee5301ebdb3fb525b7263251e53f53079e34995be3bf55c04fc829b3db3f667d47c67263e53f191d9b2c855be3bf394f87c2c2c8db3f4a2bd74fdc73e53f90ae387d8d41e3bfbd39630d9b00dc3fbd226e8a9b61e53fc0cfd46aa141e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 3
+    cell_x: 3
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ecb12b231420dc3f7f19b76dba3fe53f81a4e4b9985be3bf6334d94359e8db3f8470912f1152e53f60c388ba985be3bf366cbff4f2fddb3f948780957a62e53f017460f1a041e3bf5ac8477cae35dc3f51284b9c2350e53f732dbdf0a041e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 4
+    cell_x: 4
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70afe3cb020b55dc3f93e730d52d2ee53f8e67be2a855be3bf5a1b8f746d1ddc3f07381b839a40e53fd2890934995be3bf871935c60733dc3f5dc8bcb40351e53ffa15416aa141e3bf0c249ae5a56adc3f5903f7bd963ee53f556d5e7b8d41e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 5
+    cell_x: 5
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70614fdd56e589dc3f6eb986918c1ce53f1ecfd8875e5be3bfdf377abd6552dc3f562985f40e2fe53fa23a1999865be3bfa887eb990068dc3fec122ee1773fe53f1f64d6e78e41e3bf7b4364ad809fdc3f004dd623f52ce53f742d650b6741e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 6
+    cell_x: 6
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7083d9165951bddc3f808b106f480be53fe70a5d7f265be3bf168d9c824187dc3f724628b86e1de53f6cde5cea605be3bf47f0dfd3dc9cdc3f53d12f4fd72de53f6791c46a6941e3bfe4d5450bedd2dc3f31d90b9db01be53fccafc34c2f41e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 7
+    cell_x: 0
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702b8bda8e1595db3f96974f557f83e53f854d852cae42e3bf3e9127c45b5edb3f7213ab2b2595e53f8942fd0b7442e3bfbfa361585e74db3ff6ee3b88dfa5e53ff3ea9c8ac627e3bfbb9774d718abdb3f34575dc03994e53fc840905b0028e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 8
+    cell_x: 1
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a46e7d285fcadb3f23e263e23172e53f4522cfaad342e3bf27bb33c96a92db3ffeebf93d5c84e53f14080ecdab42e3bf2e318b096ea8db3fc5ccbba81695e53f42a758fffd27e3bf2415af0a63e0db3f5852884aec82e53f5d3b85a62528e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 9
+    cell_x: 2
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70034d70f88dffdb3f02f07a19cf60e53f565e362de642e3bf06da8fb5b5c7db3f328b7add0f73e53fc80f4f3ed242e3bff9049a90b9dddb3fb39b2a46ca83e53fc530f83b2428e3bfe4c2185e9215dc3fca45e06d8971e53f7534950f3828e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 10
+    cell_x: 3
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703377d160a134dc3ff815842d574fe53f08cf16b3e542e3bf4b0227e0e5fcdb3f9bf37624ae61e53f2d20bab3e542e3bf6357c33fea12dc3f33643f7a6872e53f1549bf963728e3bfe55fcb33a64adc3f7a32555d1160e53f88d71c963728e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 11
+    cell_x: 4
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70fea0b0c49869dc3fbdbb2a52ca3de53fbfaf743cd242e3bf79b00babfa31dc3fe4fed4453750e53ff69aa22ce642e3bfed081579ff47dc3f87a4e077f160e53f643b020f3828e3bf3bd6d2ee9d7fdc3fc0c4934c844ee53f375a203a2428e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 12
+    cell_x: 5
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7026f11788739edc3fd25fd3bb282ce53f9ea9fcc9ab42e3bf5b4f4179f366dc3f6cbf3675ab3ee53f7d4f04a9d342e3bf97b08e9ff87cdc3f06acb172654fe53fc0dcbca42528e3bf974b36f378b4dc3ffb570270e23ce53f097c4bfcfd27e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 13
+    cell_x: 6
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70862cb9e2dfd1dc3f7ccb8039e41ae53f20c6bc077442e3bf2b49c5aecf9bdc3f0585f7e60a2de53f3d7b8329ae42e3bf8ead2a17d5b1dc3fc09f0f9fc43de53f6f8c92580028e3bfe992d877e5e7dc3faca107999d2be53fc4406286c627e3bf
+  - skymap: DC2
+    tract: 3828
+    id: 14
+    cell_x: 0
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708e7b1c2b0daadb3ffdf22e5a6e93e53f9d57a7114629e3bf8f2d43b35273db3fde4d2a2314a5e53fdb83e53c0c29e3bf07c2841f3989db3faf4e5f4ab8b5e53f42cb1d994a0ee3bf92837112f4bfdb3f97c99ea112a4e53ffe9a941d840ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 15
+    cell_x: 1
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70755c595857dfdb3f205012e42082e53ff4e3105f6b29e3bfd6c9865d62a7db3fde5596424b94e53f08f647b54329e3bf87d1623f49bddb3fa71edb88efa4e53fa9567cc4810ee3bf8cf7b0a13ef5db3fda4e2b3ac592e53f1eb33337a90ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 16
+    cell_x: 2
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e137d1a68614dc3fba4fee07be70e53f932b57c97d29e3bfba9e8adeaddcdb3fe657b3dffe82e53f94fa6bf46929e3bf3d3f802395f2db3fc5787535a393e53ff74886cea70ee3bf15495d3c6e2adc3f088a1c5c6281e53f97a8e887bb0ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 17
+    cell_x: 3
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c1f89d789a49dc3f4beeb2f8455fe53f3fcfd64f7d29e3bf07bab488de11dc3fb3fd41149d71e53f804b79507d29e3bf70fdf51ac627dc3f3e8ded684182e53f5b98b20fbb0ee3bf1cbd8d44825fdc3f2987623aea6fe53fb2fd100fbb0ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 18
+    cell_x: 4
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b1abcb30927edc3f7ccc0ceab84de53ff30494f26929e3bf9f2813bef346dc3f6cc128132660e53fd128c4c87d29e3bf3769cf87db5cdc3f4fde2956ca70e53ff1715687bb0ee3bfc77d4c1d7a94dc3f018baa085d5ee53f9be2b0cca70ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 19
+    cell_x: 5
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708d8f61336db3dc3fe6326210173ce53f61973ab24329e3bf90a4a5e1ec7bdc3f20e70a109a4ee53f4b67485d6b29e3bf68500acdd491dc3fb84cce303e5fe53f40b06d35a90ee3bf1bab9f2a55c9dc3fd8165cfbba4ce53fde3473c1810ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 20
+    cell_x: 6
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701c1744b7d9e6dc3f9e9aff3cd22ae53f6592aa380c29e3bfb0a66657c9b0dc3f6d81453ff93ce53fdd70a90e4629e3bf2b03a04eb1c6dc3f5c1c392d9d4de53f9edb9a1a840ee3bfd06ff6a3c1fcdc3f0e9aade5753be53f5bb9e8944a0ee3bf
+  - skymap: DC2
+    tract: 3828
+    id: 21
+    cell_x: 0
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703456a1c1e9bedb3f9408844a48a3e53fc8fb48c7ca0fe3bf139c33d32e88db3f939339f5edb4e53f7610fb3e910fe3bf72ba13d6f89ddb3ffae959b57bc5e53f13a273c7bbf4e2bfdb174406b4d4db3fe4039c3cd6b3e53f98fec2fef4f4e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 22
+    cell_x: 1
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7022d9884d34f4db3f4ebbf2e1fa91e53f763462e3ef0fe3bfb65cc4ee3ebcdb3f76ebd33125a4e53f5595086ec80fe3bf0de5b73009d2db3f8bb4e121b3b4e53fd109d1a8f2f4e2bfb8bd95bcfe09dc3f36d145f488a2e53fc0f19de619f5e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 23
+    cell_x: 2
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70450fe5e56329dc3f94a78e039880e53fdc3650350210e3bf05a97ccf8af1db3fad6c46ddd892e53f7bb59c7aee0fe3bf073bed3c5507dc3fb42960ee66a3e53ffa57d47f18f5e2bfaf6ae1692e3fdc3f985ecb252691e53f5a74c11e2cf5e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 24
+    cell_x: 3
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700252cdec775edc3f66dc47e21f6fe53f807a70bc0110e3bf171a95c4bb26dc3f882b5f107781e53ff41f12bd0110e3bff2170848863cdc3fe86d33320592e53f90a42ca72bf5e2bf76be3d704274dc3fec2d1c04ae7fe53fade28ba62bf5e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 25
+    cell_x: 4
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70edd64bc56f93dc3f959acbb1925de53fc72fc778ee0fe3bf29221930d15bdc3f9aad04feff6fe53f77f6bd340210e3bfc72a13b49b71dc3f567241208e80e53fd601301e2cf5e2bf69f3b4323aa9dc3f9583e5c2206ee53f4567017e18f5e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 26
+    cell_x: 5
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7034c066d34ac8dc3f625881a6f04be53fa73fff6ac80fe3bfcf9a0675ca90dc3f03d0dad9735ee53f46139ce1ef0fe3bf75480ce494a6dc3f75102eec016fe53fe34fdae419f5e2bf2eef4d1515dedc3f426a8f967e5ce53f79facba5f2f4e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 27
+    cell_x: 6
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ab627e4eb7fbdc3fff178b93ab3ae53fa5b6c53a910fe3bfd1d656f7a6c5dc3f01cc3fd8d24ce53f8d094fc4ca0fe3bfb17ded3b71dbdc3fae0e58ca605de53f083dcdfbf4f4e2bf8a634d518111dd3f4dd3ab53394be53ff63444c3bbf4e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 28
+    cell_x: 0
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c96e1314abd3db3f0168eef60cb3e53fee7051983cf6e2bf1b52a7e5ef9cdb3f4c857972b2c4e53f267d225d03f6e2bfa548b83e9db2db3f8b88929a29d5e53ff6cd33611adbe2bffaf0937558e9db3f0524ba6284c3e53fa976b34a53dbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 29
+    cell_x: 1
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d2ecb2c9f508dc3f3b38a4acbfa1e53f86fdab8261f6e2bf76f6963e00d1db3f514652dce9b3e53f610137423af6e2bf381e32a0ade6db3fc1bd344561c4e53fdeafeef750dbe2bf85a9031ea31edc3f5be33b4a37b2e53febbb5d0078dbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 30
+    cell_x: 2
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ca495077253edc3fa01efbdc5c90e53fad400bbc73f6e2bfab260d4a4c06dc3fe5e0d2a69da2e53fbb19ca1b60f6e2bf1747879ff91bdc3ffac24e4215b3e53fb5117c9b76dbe2bf51c44aa9d253dc3f4043509cd4a0e53f6536ba1f8adbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 31
+    cell_x: 3
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708022027f3973dc3f82a7e2bae47ee53fb48bcd4373f6e2bf9cb56c557d3bdc3fe69f6de93b91e53f77586e4473f6e2bf8f479f892a51dc3f9b8974a7b3a1e53fc006c8a889dbe2bfc4108179e688dc3f2da6e58b5c8fe53f7e1f28a889dbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 32
+    cell_x: 4
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708da5d24331a8dc3fe91a087a576de53f6a09f71960f6e2bfc54fc0c29270dc3f4e7f08d7c47fe53f4fc479bb73f6e2bf66f585c03f86dc3fbadc8aa73c90e53fb089291f8adbe2bf98a9b2f1ddbddc3f4bb7a84ccf7de53f079cab9976dbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 33
+    cell_x: 5
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bba3c8290cdddc3f6380d34eb55be53fb3bd313f3af6e2bfb2be05f58ba5dc3f945c47a3386ee53f163de88061f6e2bf0cfd3aa738bbdc3fe2f53476b07ee53f43809cfe77dbe2bf5105e975b8f2dc3f436e01132d6ce53fd9bbedf450dbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 34
+    cell_x: 6
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a083096a7810dd3ff82bc80d704ae53f81c7f25803f6e2bfbdfa365068dadc3f53fb8882975ce53f127c5b953cf6e2bf4cf3baa114f0dc3fbc81d1470f6de53f9ebbc14753dbe2bf8a7b87422426dd3f60fa68b4e75ae53ff1110a5d1adbe2bf
+  - skymap: DC2
+    tract: 3828
+    id: 35
+    cell_x: 0
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701c3b0ee550e8db3f7db5c930bcc2e53f507250d09bdce2bf53fd3bad95b1db3fcb69476c61d4e53f21d9e8e262dce2bf1e190f1d26c7db3fb86b2fccc1e4e53fda9297b266c1e2bf2786fd23e1fddb3f3f301de61cd3e53f57fda14d9fc1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 36
+    cell_x: 1
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701b9b718f9b1ddc3f6f5e81156fb1e53fadb37f88c0dce2bf36249a0fa6e5db3fb41b6d1399c3e53f7ed9627d99dce2bf7ff26d5136fbdb3f3059f8c4f9d3e53f9c2611fe9cc1e2bf1db197892b33dc3f1ee62f0ed0c1e53f93cbb0d0c3c1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 37
+    cell_x: 2
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70752eac1dcb52dc3fb7c98d650ca0e53f57971aa9d2dce2bf8d29d610f21adc3f3b56b30d4db2e53f178b8523bfdce2bf1b4feb0e8230dc3f4eb76303aec2e53f181fbb6dc2c1e2bfe17b37be5a68dc3f7079cc916db0e53fc28511d7d5c1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 38
+    cell_x: 3
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7044aad5f1de87dc3fb26bdd53948ee53f964b8031d2dce2bfacd8d4fd2250dc3fe072c770eba0e53fd13d2032d2dce2bfc29e59a3b265dc3ff52cd29a4cb1e53f4650c360d5c1e2bf4bbaf7236e9ddc3f1f98dfa3f59ee53f77452460d5c1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 39
+    cell_x: 4
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703806fa6ed6bcdc3fd3fa1c14077de53f86f5b421bfdce2bf81eda1383885dc3ff24e8e6f748fe53fb3e089a8d2dce2bf0bb3c770c79adc3f2eca26bed59fe53f83a081d6d5c1e2bf7837e81d65d2dc3f4dbb1478688de53fb529ed6bc2c1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 40
+    cell_x: 5
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700e8d22f9b0f1dc3f7273b4da646be53fb4b0617a99dce2bfd5f13c2431badc3f9b2fab3de87de53f2f59be86c0dce2bf3fe038dabfcfdc3ff18f03a1498ee53f38fbf1cec3c1e2bfe6c516103f07dd3f1d2bd342c67be53fa85614fb9cc1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 41
+    cell_x: 6
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700cd782cc1c25dd3ffa37147d1f5ae53ff6d3bede62dce2bf2a4fa2240defdc3f83c67c0f476ce53f8d835ecd9bdce2bf870eae439b04dd3fdb74c677a87ce53f6151b44a9fc1e2bf49664e3baa3add3ffb0807da806ae53f0a9473ae66c1e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 42
+    cell_x: 0
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7011df21f8dafcdb3f9c5b30ca55d2e53f87e279bbe8c2e2bf620f82ed1fc6db3f70dfbfb4fae3e53f45517f1cb0c2e2bf840f93d210dbdb3f01b9b01fe1f3e53fc376013146a8e2bfc4d43776cb11dc3ff89b96993ce2e53fe001f07e7ea8e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 43
+    cell_x: 1
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702a6f55622532dc3f55faa2ee08c1e53ffdf812410dc3e2bf58095e2530fadb3f6eee3ea932d3e53ff2e3bf6be6c2e2bf56f0f6a8200fdc3fb62d1d7419e3e53fec0185327ca8e2bf16e3ae671547dc3feec3b410f0d0e53fda1c42d0a2a8e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 44
+    cell_x: 2
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bb608a9c5467dc3f4d5d5e6fa6afe53fe3b9b4481fc3e2bf733368e77b2fdc3fa2aa00e4e6c1e53fa19a04de0bc3e2bf7eb844f36b44dc3fe76d4c02ced1e53f77f82f6fa1a8e2bf742b2715447cdc3f6eb2f2d48dbfe53f3a0f15beb4a8e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 45
+    cell_x: 3
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e155db08689cdc3fd84b4f7f2e9ee53f7933bfd11ec3e2bf87145f81ac64dc3fbe63847885b0e53f5d495ed21ec3e2bff8d57e019c79dc3f6cce14db6cc0e53f1f026848b4a8e2bf0036c0e056b1dc3f4fdc3a1916aee53ff2cfc947b4a8e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 46
+    cell_x: 4
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7077df570a5fd1dc3ffa512152a18ce53f1a8536dc0bc3e2bfdf4c5155c199dc3f8243ad990e9fe53f9cca24481fc3e2bf89c6b835b0aedc3f0b205731f6aee53ffded85bdb4a8e2bf2d258f2d4de6dc3f2bfd3611899ce53f5c78646da1a8e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 47
+    cell_x: 5
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70428d0d053906dd3f5ac43b1cff7ae53fc9dec268e6c2e2bfe2f641c6b9cedc3f1c5e1d7b828de53f8e09543f0dc3e2bfad2dfbf2a7e3dc3f08a0b3386a9de53f26ad85cea2a8e2bf5ac5a75f261bdd3f711b4df1e68ae53fd0438c2f7ca8e2bf
+  - skymap: DC2
+    tract: 3828
+    id: 48
+    cell_x: 6
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70252e8739a439dd3f39c887b3b969e53fb4085b18b0c2e2bf86b831389503dd3f02b73251e17be53f6a028cb8e8c2e2bf4de54c9d8218dd3f17fd8625c98be53f1e53067c7ea8e2bf74315dbd904edd3fb26e698fa179e53fe11be32c46a8e2bf
+- type: collection
+  collection_type: RUN
+  name: 2.2i/runs/test-med-1/w_2022_03/DM-33223/20220118T193330Z
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: dataset_type
+  name: deepCoadd_calexp
+  dimensions:
+  - band
+  - skymap
+  - tract
+  - patch
+  storage_class: ExposureF
+  is_calibration: false
+- type: dataset
+  dataset_type: deepCoadd_calexp
+  run: 2.2i/runs/test-med-1/w_2022_03/DM-33223/20220118T193330Z
+  records:
+  - dataset_id:
+    - !uuid '84199a0e-7a1d-4eb3-8e07-1f9275b48dba'
+    data_id:
+    - band: g
+      skymap: DC2
+      tract: 3828
+      patch: 24
+    path: 2.2i/runs/test-med-1/w_2022_03/DM-33223/20220118T193330Z/deepCoadd_calexp/3828/24/g/deepCoadd_calexp_3828_24_g_DC2_2_2i_runs_test-med-1_w_2022_03_DM-33223_20220118T193330Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid '04c036f9-6830-40a3-a501-c21a24282780'
+    data_id:
+    - band: i
+      skymap: DC2
+      tract: 3828
+      patch: 24
+    path: 2.2i/runs/test-med-1/w_2022_03/DM-33223/20220118T193330Z/deepCoadd_calexp/3828/24/i/deepCoadd_calexp_3828_24_i_DC2_2_2i_runs_test-med-1_w_2022_03_DM-33223_20220118T193330Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - !uuid 'fab7417c-a6b6-4862-b8b7-4e4275fbe16c'
+    data_id:
+    - band: r
+      skymap: DC2
+      tract: 3828
+      patch: 24
+    path: 2.2i/runs/test-med-1/w_2022_03/DM-33223/20220118T193330Z/deepCoadd_calexp/3828/24/r/deepCoadd_calexp_3828_24_r_DC2_2_2i_runs_test-med-1_w_2022_03_DM-33223_20220118T193330Z.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
